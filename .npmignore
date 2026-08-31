@@ -1,0 +1,12 @@
+tests/
+.github/
+examples/
+docs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Misc
+*.log
+.env
+.env.local

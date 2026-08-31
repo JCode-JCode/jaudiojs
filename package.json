@@ -1,0 +1,50 @@
+{
+  "name": "jaudiojs",
+  "version": "1.0.0",
+  "description": "JavaScript/Node.js port of jaudiopy – a complete library for beat making, sound synthesis, mixing, mastering, and audio-file processing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/1test.js",
+    "example:1": "node examples/1/heavyGangstaBassBeatExample.js",
+    "example:2": "node examples/2/melancholicBeatExample.js",
+    "example:3": "node examples/3/beatbuilderExample.js",
+    "example:4": "node examples/4/trap808BeatExample.js",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCode-JCode/jaudiojs.git"
+  },
+  "keywords": [
+    "audio",
+    "synth",
+    "synthesizer",
+    "beat",
+    "drum-machine",
+    "sequencer",
+    "mixer",
+    "mastering",
+    "wav",
+    "dsp",
+    "music",
+    "jaudiopy",
+    "nodejs"
+  ],
+  "author": "J Code",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JCode-JCode/jaudiojs/issues"
+  },
+  "homepage": "https://github.com/JCode-JCode/jaudiojs#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "speaker": ">=0.5.0"
+  },
+  "peerDependenciesMeta": {
+    "speaker": {
+      "optional": true
+    }
+  }
+}
